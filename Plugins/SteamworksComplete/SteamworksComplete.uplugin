@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.17",
+	"FriendlyName": "Steamworks Complete",
+	"Description": "More than just another Steamworks wrapper",
+	"Category": "Integrations",
+	"CreatedBy": "Heathen",
+	"CreatedByURL": "https://heathen.group",
+	"DocsURL": "https://kb.heathen.group/assets/steamworks",
+	"MarketplaceURL": "",
+	"SupportURL": "https://discord.gg/6X3xrRc",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SteamworksComplete",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		}
+	],
+	"DisallowedPlugins": [
+		"OnlineSubsystemSteam",
+		"SteamSockets",
+		"SteamShared",
+		"SteamAudio",
+		"SteamController"
+	]
+}
